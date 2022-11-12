@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+span{
+
+}
+
+th, td, tr {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+caption{
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+th{
+    background-color: #eaecf0;
+}
+
+td th{
+    background-color: #f8f9fa;
+}
+
+td:first-child ,td:nth-child(2){
+    font-weight: bold;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+span{
+    color: blue;
+    font-size: 12px;
+}
+
+sup{
+    color: blue;
+}
